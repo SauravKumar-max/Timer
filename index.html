@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="times"> 
+         <div> 
+          <input value="00" class="hours" type="number" onkeypress="if(this.value.length==2) {return false;}"> 
+          <p>Hour</p> 
+         </div> 
+         <span>:</span> 
+         <div> 
+          <input value="00" class="minutes" type="number" onkeypress="if(this.value.length==2) return false;"> 
+          <p>Minute</p> 
+         </div> 
+         <span>:</span> 
+         <div> 
+          <input value="00" class="seconds" type="number" onkeypress="if(this.value.length==2) return false;"> 
+          <p>Second</p> 
+         </div> 
+        </div> 
+        <div class="start"> 
+         <button class="startBtn">Start</button> 
+        </div> 
+       </div> 
+       <div class="shower"> 
+        <div class="countdown"> 
+         <div class="ma">
+           00 
+         </div> 
+         <span>:</span> 
+         <div class="dhar">
+           00 
+         </div> 
+         <span>:</span> 
+         <div class="chod">
+           00 
+         </div> 
+        </div> 
+        <div class="someBtns"> 
+         <button class="cancelBtn">Cancel</button> 
+         <button class="freezBtn pauseBtn">Pause</button> 
+        </div> 
+       </div> 
+</body>
+</html>
